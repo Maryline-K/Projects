@@ -7,7 +7,7 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Maryline Kwa",
+  "author": "Maryline",
   "license": "ISC",
   "dependencies": {
     "moment": "^2.29.1",

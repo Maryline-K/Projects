@@ -1,2 +1,2 @@
 # Timezone
-checking date from any country time zone.
+checking current date from any country time zone.

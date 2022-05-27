@@ -3,7 +3,7 @@ pipeline{
     
     stages{
 
-        stage('build'){
+        stage('buildingStage'){
 
 
             steps{
@@ -13,7 +13,7 @@ pipeline{
         }
 
 
-        stage('test'){
+        stage('testingStage'){
 
 
             steps{
@@ -24,7 +24,7 @@ pipeline{
 
 
 
-        stage('deploy'){
+        stage('deployingStage'){
 
 
             steps{

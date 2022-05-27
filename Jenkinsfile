@@ -8,7 +8,7 @@ pipeline{
 
             steps{
 
-                //
+                sh "building now"
             }
         }
 
@@ -18,7 +18,7 @@ pipeline{
 
             steps{
 
-                //
+               sh "testing now"
             }
         }
 
@@ -29,7 +29,7 @@ pipeline{
 
             steps{
 
-                //
+                sh "deploying now"
             }
         }
 

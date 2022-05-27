@@ -1,5 +1,8 @@
 pipeline{
     agent any
+   options { retry(3) }
+   triggers{ cron('H(0-29)/10 * * * *') } // every 10 minutes
+    
     
     stages{
 
@@ -32,7 +35,6 @@ pipeline{
                 sh "deploying now"
             }
         }
-
 
 
 
